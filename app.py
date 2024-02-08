@@ -48,6 +48,7 @@ if uploaded_file is not None:
 submit=st.button("Tell Me About This Food")
 
 input_prompt="""
+Firstly check the given image is of food or not if not then directly said "This is not Appropriate Image Please upload another image.
 As a nutrition expert, you would like to analyze the food items in the given image and provide a detailed report on their calorie,
  Carbohydrates, Proteins, Lipids (Fats), Water, Minerals, Vitamins content. 
 Additionally, you will provide a breakdown of the  content of each food item in the following format:
